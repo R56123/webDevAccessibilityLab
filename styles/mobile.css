@@ -9,6 +9,28 @@ body {
   width: 100%;
 }
 
+
+
+#logo
+{
+font-size: 26px;
+font-weight: bolder;
+color: #ffffff;
+text-transform: uppercase;
+}
+#logo a {
+  font-size: 26px;
+font-style: italic;
+text-decoration: none;
+color: #ffffff;
+text-transform: uppercase;
+}
+
+#logo a:hover {
+
+  text-decoration: underline;
+}
+
 main,
 footer {
   padding: 0 15px;
@@ -19,7 +41,7 @@ footer {
 }
 
 header {
-  background-color: #263248;
+  background-color: rgb(135, 8, 76);
 }
 
 header h1 {
@@ -35,7 +57,7 @@ nav ul {
 }
 
 nav ul li {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid rgb(0,0,0);
   padding: 5px;
 }
 
